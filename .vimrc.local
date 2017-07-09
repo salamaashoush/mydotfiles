@@ -108,3 +108,12 @@ highlight link SyntasticWarningSign SignColumn
 highlight link SyntasticStyleErrorSign SignColumn
 highlight link SyntasticStyleWarningSign SignColumn
 
+Plugin 'ternjs/tern_for_vim'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'vim-perl/vim-perl6'
+Plugin 'vim-perl/vim-perl'
+
+"Tern 
+let g:tern_show_argument_hints='on_hold'
+" and 
+let g:tern_map_keys=1
