@@ -1,0 +1,37 @@
+{
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    // "vim.disableAnnoyingNeovimMessage": true,
+    // "cSpell.language": "en",
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact"
+    },
+    "files.autoSave": "onFocusChange",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Darker"
+    },
+    "window.menuBarVisibility": "default",
+    "editor.tabCompletion": true,
+    "explorer.openEditors.visible": 0,
+    "editor.fontFamily": "'Fira Code Light','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "eslint.autoFixOnSave": true,
+    "git.autofetch": true,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.config": "/home/salamaashoush/Pushbots/frontend/.php_cs"
+}

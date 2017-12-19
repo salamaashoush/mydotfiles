@@ -1,0 +1,22 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+ctrl+l",
+        "command": "HookyQR.beautify",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.showContextMenu",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+f10",
+        "command": "-editor.action.showContextMenu",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+x",
+        "command": "eslint.executeAutofix"
+    }
+]
