@@ -1,0 +1,21 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_receive_bg_color = "#cc0000"
+  title_transmit_bg_color = "#3465a4"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2e2e2d"
+    cursor_color = "#25C3DC"
+    foreground_color = "#f2f2f2"
+    login_shell = True
+    palette = "#2c2c2c:#c62828:#558b2e:#f9a825:#1565c1:#6a1e9a:#00838f:#ffffff:#969694:#f15250:#86bd47:#f8e63a:#77b2f6:#b963c8:#25c3dc:#ffffff"

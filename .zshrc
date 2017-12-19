@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="odin"
+ZSH_THEME="spaceship"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +51,7 @@ ZSH_THEME="odin"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rails git ruby sudo autojump asdf bower bundler cake capistrano  catimg  chucknorris command-not-found Composer coffee common-aliases compleat cpanm debian dircycle dirhistory dirpersist django docker encode64 fasd gas geeknote gem git gitfast git-extras git_remote_branch github gradle  httpie history jsontools knife meteor mvn ng node npm perl perms pip pyenv pylint python rand-quote redis-cli repo rvm screen sprunge sublime sudo supervisor svn svn-fast-info symfony2 systemd tmux tugboat urltools vagrant web-search )
+plugins=(git rails git ruby sudo command-not-found Composer coffee common-aliases compleat cpanm dircycle dirhistory dirpersist django docker encode64 geeknote gem gitfast git-extras git_remote_branch github gradle  httpie history jsontools knife meteor mvn ng node npm perl perms pip pyenv pylint python rand-quote redis-cli repo rvm screen sprunge sublime supervisor svn svn-fast-info symfony2 systemd tmux tugboat urltools vagrant web-search )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -123,6 +123,27 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+
+source "/home/salamaashoush/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+#Gradel
+export PATH=$PATH:/opt/gradle/gradle-3.4.1/bin
+
+source "/home/salamaashoush/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+export PATH="/home/salamaashoush/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export OPENEDX_RELEASE=open-release/ginkgo.1
+
+#GOLANG
+export GOROOT="/usr/lib/go-1.9"
+export PATH="$PATH:$GOROOT/bin"
 
 
 source "/home/salamaashoush/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
